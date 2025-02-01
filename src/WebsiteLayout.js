@@ -112,6 +112,15 @@ const WebsiteLayout = ({ children }) => {
                 Your Statements
               </a>
             </li>
+            <li className="hide-on-desktop">
+              <a
+                href="/Contact"
+                className={activeLink === "/Contact" ? "active" : ""}
+                onClick={() => handleLinkClick("/Contact")}
+              >
+                Contact Us
+              </a>
+            </li>
           </ul>
           <a className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
             <AnimatedButton text="Contact Us" link="" />

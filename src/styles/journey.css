@@ -45,7 +45,13 @@
     
   }
 
+  .hide-on-desktop{
+    display: none;
+  }
 @media(max-width:768px){
+    .hide-on-desktop{
+        display: block;
+      }
     .journey-left{
 
         width: 100%;
