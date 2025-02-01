@@ -1,0 +1,86 @@
+.becomepartner-container {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    
+  }
+.becomepartner{
+
+background: linear-gradient(246.5deg, #000000 34.85%, #D81324 118.68%);
+margin-bottom: 3rem;
+
+}
+  
+  .becomepartner-left {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    gap: 20px;
+    background-image: url('../assets/darkarrows.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  .becomepartner-right {
+    width: 45%;
+    
+    
+  }
+  .becomepartner-image{
+    min-height:  420px;
+    background-image: url('../assets/becomepartner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .becomepartner-address2{
+    display: none;
+    
+  }
+  .becomepartner-address1{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+    .becomepartner-address1{
+        display: none;
+    }
+    .becomepartner-address2{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+   
+    .becomepartner-container {
+      flex-direction: column;
+    }
+  
+    .becomepartner-left, 
+    .becomepartner-right {
+      width: 100%;
+    }
+    .becomepartner-right {
+        display: block;
+        
+        
+        
+      }
+      .becomepartner-image{
+        min-height:  340px;
+        background-image: url('../assets/becomepartner.png');
+        background-position: bottom;
+        background-size: cover;
+        
+        background-repeat: no-repeat;
+      }
+      
+  }
+  

@@ -1,0 +1,82 @@
+.presence-container {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    
+  }
+.presence{
+    padding: 3rem;
+}
+  
+  .presence-left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+  }
+  
+  .presence-right {
+    width: 50%;
+    
+    
+  }
+  .presence-image{
+    min-height:  420px;
+    background-image: url('../assets/presence.png');
+    background-position: center;
+    background-size: contain;
+    margin-top: 1rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+  }
+  .presence-address2{
+    display: none;
+    
+  }
+  .presence-address1{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  /* Responsive for mobile */
+  @media (max-width: 768px) {
+    .presence-address1{
+        display: none;
+    }
+    .presence-address2{
+        display: flex;
+    flex-direction: column;
+    gap: 20px;
+    }
+    .presence{
+        padding: 1.5rem;
+    }
+    .presence-container {
+      flex-direction: column;
+    }
+  
+    .presence-left, 
+    .presence-right {
+      width: 100%;
+    }
+    .presence-right {
+        display: block;
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        
+      }
+      .presence-image{
+        min-height:  320px;
+        background-image: url('../assets/presence.png');
+        background-position: bottom;
+        background-size: contain;
+        margin-top: 1rem;
+        border-radius: 10px;
+        background-repeat: no-repeat;
+      }
+      
+  }
+  

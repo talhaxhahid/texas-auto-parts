@@ -1,0 +1,109 @@
+
+.meetleader{
+   position: relative;
+    background-image: url(../assets/ctq-img.png);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: left;
+    
+    
+}
+
+.meetleader-box1{
+
+    width: 30%;
+    max-height: 18rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+.meetleader-box2{
+    /* background-color: #141105; */
+    width: 70%;
+    margin-top: -1rem;
+    border-radius: 6px;
+    padding: 1.5rem;
+    padding-top: 2.1rem;
+    max-height: 70rem;
+    border: 1px solid white;
+    margin-left: -1rem;
+}
+
+.meetleader-box2 h2,
+.meetleader-box2 h4 {
+  color: white;
+  margin-bottom: 10px; /* Space after heading */
+}
+
+.meetleader-box2 p {
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 15px; /* Space after paragraphs */
+  }
+  
+  .meetleader-box2 p:last-child {
+    margin-bottom: 0; /* Remove space after the last paragraph */
+  }
+
+@media (max-width: 768px) {
+    .meetleader::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top right, #D81324, transparent);
+        pointer-events: none; /* Ensures clicks pass through */
+    }
+
+    .meetleader h1{
+        text-align: center !important;
+        font-size: 2.4rem !important;
+    }
+
+    .meetleader-container{
+        flex-direction: column;
+        gap: 20px;
+    }
+    #horeca-chairman{
+        flex-direction: column-reverse;
+    }
+    .meetleader-box1{
+
+        width: 100%;
+        overflow: hidden;
+        border-radius: 10px;
+    
+    
+    }
+    .meetleader-box2{
+    
+        width: 100%;
+        margin: 0.1rem;
+        padding-bottom: 2.6rem;
+    
+    }
+    .meetleader-button{
+        bottom: 0.8rem !important;
+        right: 0.8rem !important;
+    }
+    .leader-pic{
+        width:100% !important;
+        position: relative;
+
+    }
+    .horecaleader{
+        max-height: 300px !important;
+        overflow: hidden;
+        border-radius: 8px;
+    }
+
+
+}

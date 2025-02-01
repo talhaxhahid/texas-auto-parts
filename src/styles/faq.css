@@ -1,0 +1,236 @@
+/* General container to prevent horizontal scroll */
+body {
+  overflow-x: hidden;
+}
+
+/* FAQ Container */
+.faqs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-image: url("../assets/lightarrows.png");
+  background-position: top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  
+}
+
+/* FAQ Header */
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.faq-title {
+  font-size: 28px;
+  font-weight: bold;
+  flex: 1;
+  text-align: left;
+}
+
+.faq-subtext {
+  margin-top: -20px;
+  font-size: 14px;
+  color: #666;
+  max-width: 49%;
+  text-align: left; /* Move text to the right */
+}
+
+/* FAQ Content */
+.faq-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 20px;
+}
+
+/* FAQ Left (Questions List) */
+.faq-left {
+  width: 50%;
+  text-align: left;
+}
+
+/* FAQ List */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* FAQ Item */
+.faq-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 8px;
+ border: 1px solid #e0e0df;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+
+.faq-toggle{
+   border: none;
+   background: none;
+   
+}
+
+.faq-toggle:active{
+   background:none
+   
+}
+
+.faq-item.active {
+  background: linear-gradient(80deg, #000000 0%, #d81324 100%);
+}
+
+.faq-item.active, .faq-question:active{
+    color: white;
+}
+
+/* FAQ Right (Answer Section) */
+.faq-right {
+  width: 50%;
+  border: 1px solid #e0e0df;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* min-height: 230px; */
+  height: 216px;
+  padding: 30px;
+  background: white;
+}
+
+/* FAQ Answer Box */
+.faq-answer-title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e0e0df;
+}
+
+.faq-answer-text {
+  margin-top: 16px;
+  font-size: 16px;
+  color: #555;
+}
+
+/* CTA Section */
+.cta-section {
+    margin-top: 20px; /* Margin from FAQ section */
+    padding: 40px 20px; /* Add padding for spacing */
+    text-align: center; /* Center text */
+    position: relative;
+    background: url("../assets/ctq-img.png") center/cover no-repeat; /* Background image */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250px; /* Adjust as needed */
+    border-radius: 10px;
+    gap: 10px;
+  }
+  
+  /* Gradient Overlay */
+  .cta-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; /* Dark to red gradient */
+    z-index: 1;
+    border-radius: 15px;
+  }
+
+  .cta-highlight{
+    color: #d81324;
+  }
+  
+  /* CTA Content Styling */
+  .cta-section h3,
+  .cta-section p,
+  .cta-section .cta-button {
+    position: relative;
+    z-index: 2; /* Ensure text is above overlay */
+    margin: 10px 0;
+  }
+  
+  /* CTA Title */
+  .cta-section h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* CTA Subtitle */
+  .cta-section p {
+    font-size: 12px;
+    opacity: 0.9;
+    margin-bottom: 3px;
+  }
+
+  .cta-heading{
+    font-size: 32px;
+    color: white;
+  }
+  
+  /* CTA Button */
+  .cta-button {
+        display: flex;
+        color: #d81324;
+        border: none;
+        padding: 0.8rem 0.9rem;
+        font-size: 0.8rem;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background 0.3s ease;
+        gap:8px;
+        font-weight: 800;
+        margin-right: 32px;
+        margin-bottom: 10px;
+      }
+      
+        .arrow-icon img {
+        margin-left: 5px;
+      }
+  
+  
+  .cta-button:hover {
+    background: #d81324;
+    color: white;
+  }
+  
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .faq-header {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .faq-subtext {
+    text-align: left;
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .faq-content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .faq-left,
+  .faq-right {
+    width: 100%;
+  }
+}

@@ -1,0 +1,60 @@
+.journey{
+    min-height: 400px;
+    background-image: url(../assets/journey-bg.png);
+    background-position: bottom;
+    background-size: cover;
+    padding: 2rem;
+}
+
+.journey-container{
+    display: flex;
+}
+
+.journey-left{
+    width: 45%;
+    background-image: url(../assets/journey.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
+    border-radius: 8px;
+}
+.journey-right{
+    width: 55%;
+}
+
+.journey-details{
+    display: flex;
+}
+
+.journey-icon{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.journey-content p{
+    font-style: italic;
+    font-weight: 300;
+}
+.vertical-line {
+    width: 1.4px; /* Line thickness */
+    height: 100%; /* Line height */
+    background-color: #D81324; /* Line color */
+    
+  }
+
+@media(max-width:768px){
+    .journey-left{
+
+        width: 100%;
+    }
+    .journey-right{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .journey-container{
+        flex-direction: column;
+    }
+}

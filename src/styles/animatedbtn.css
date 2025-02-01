@@ -1,0 +1,33 @@
+.contact-btn {
+    position: absolute;
+    right: 20px;  /* Adjust right distance */
+    top: 50%;     /* Vertically centers */
+    transform: translateY(-50%); /* Adjusts the exact vertical position */
+  }
+  
+  
+  .contact-button {
+    background: #D81324;
+    color: white;
+    padding: 13px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .contact-button img {
+    margin-left: 5px;
+  }
+  
+  .contact-button:hover {
+    background: #D81324;
+  }
+  
+  

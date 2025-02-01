@@ -1,0 +1,88 @@
+
+.highlight {
+    color: #D81324;
+  }
+
+.roboticsproduct{
+    height: 60rem;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.roboticsproduct-inner{
+    height: 100%;
+    width: 100%;
+    background-image:url('../assets/lightarrows.png') ;
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+.productSection{
+padding: 25px;
+}
+
+
+.button2{
+    display: none;
+}
+
+.product-card p{
+    color:#555555;
+    text-align: left;
+}
+
+#horecafeaturedproducts{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 9rem;
+    height: 35rem;
+}
+
+.product-name:hover {
+     word-wrap: "break-word"
+  }
+  
+  .product-card:hover .product-name,
+  .product-card:hover .product-content{
+    color: white;
+  }
+ 
+
+.product-card:hover {
+    background: linear-gradient(45deg, #000000 40%, #D81324 100%);
+  }
+
+@media (max-width: 768px) {
+
+    .roboticsproduct{
+        height: 55rem;
+       
+    }
+
+    .myservices{
+        margin-left: 0.2rem;
+        line-height: 1.2;
+    }
+    #horecafeaturedproducts{
+        /* background-image: url('../assets/half-circle.png'); */
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 25%;
+        height: 38rem;
+        
+    }
+    .button2{
+        display: block;
+    }
+    .button1{
+        display: none;
+    }
+
+    .roboticsproduct-inner{
+        padding:5px;
+    }
+    
+
+}

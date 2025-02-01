@@ -1,0 +1,110 @@
+
+  
+  .missioncontainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 5rem;
+  }
+  
+  /* Content Section */
+  .missioncontent {
+    text-align: left;
+  }
+  
+  .missiontitle {
+    font-size: 16px;
+    color: #000000;
+    margin-left: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .missionhighlight {
+    color: #D81324; /* Red highlight color */
+  }
+  
+  .missionheading {
+    font-size: 32px;
+    margin: 10px 0;
+    margin-left: 10px;
+    font-weight: 700;
+  }
+  
+  .missiondescription {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    margin-left: 10px;
+  }
+  
+  /* Image and Mission Section */
+  .image-with-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: -10px;
+    margin-left: 10px;
+  }
+  
+  .missionresponsive-img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 8px;
+    height: 400px; /* Increase height for mobile */
+    object-fit: cover;
+  }
+  
+  .mission-vision {
+    text-align: left;
+  }
+  
+  .mission-title {
+    font-size: 27px;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .mission-description {
+
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555555;
+    margin-left: 10px;
+  }
+  .mission-italic{
+    font-weight: 600;
+    font-style: italic;
+  
+  }
+  /* Responsive Styles */
+  @media (min-width: 768px) {
+    .missioncontainer {
+      gap: 40px;
+    }
+  
+    .missioncontent {
+      text-align: left;
+    }
+  
+    .image-with-mission {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .missionresponsive-img {
+      flex: 1;
+      max-width: 50%;
+      height: auto;
+    }
+  
+    .mission-vision {
+      flex: 1;
+      text-align: left;
+      padding-left: 20px;
+    }
+  }
+  

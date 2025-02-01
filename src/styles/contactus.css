@@ -1,0 +1,169 @@
+.contactus{
+
+    background-color: white;
+    
+    padding: 2rem;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    
+}
+
+.contactus h1{
+    font-weight: 600;
+}
+.contactus p{
+    font-size: 0.9rem;
+    color: white;
+}
+.contactus input::placeholder{
+    color: rgb(44, 42, 42);
+    font-size: 0.8rem;
+}
+.contactus textarea::placeholder{
+    color: rgb(33, 32, 32);
+    font-size: 0.8rem;
+}
+
+
+/* Form Styling */
+.form-container {
+    margin-top: 20px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 0.5px solid #E7E7E7; 
+    border-radius: 8px;
+    background: #f2f2f2; /* Adjusted dark background */
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 0.5px solid #D81324;
+    background-color: #d8132314;
+}
+
+/* Textarea Styling */
+.form-textarea {
+    width: 100%;
+    padding: 15px;
+    border: 0.5px solid #E7E7E7; 
+    border-radius: 8px;
+    background: #f2f2f2;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    height: 150px;
+}
+
+.form-textarea:focus {
+    outline: none;
+    border: 0.5px solid #D81324;
+    background-color: #d8132314;
+}
+
+/* Button Styling */
+.form-button {
+    background: #D81324;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form-button:hover {
+    background: #2c2c2c;
+}
+
+
+.contactus-img{
+    transform: translateX(5.9rem);
+}
+
+.contactus-bg{
+    background-image: url(../assets/benefits-arrows.png);
+    background-size: contain;
+}
+.location{
+    background-image: url(../assets/location-arrows.png);
+    background-position: left;
+    background-size: cover;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .contactus{
+        padding-right: 2rem;
+    }
+    .contactus h1 {
+        text-align: center ;
+    }
+    .form-input, .form-textarea {
+        font-size: 14px;
+    }
+    .contactus-social{
+        justify-content: start !important;
+        margin-top: 2rem;
+    }
+    .contactus-img{
+        display: none;
+    }
+    .second-input{
+        margin-top: 1rem !important;
+    }
+}
+
+/* Grid System */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+  .col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  @media (min-width: 768px) {
+    .col-md-4 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .col-md-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .col-md-8 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+  }
+  
+  /* Margin and Padding Utilities */
+  .mt-3 {
+    margin-top: 1rem;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mt-5 {
+    margin-top: 3rem;
+  }
+  
+  .text-left {
+    text-align: left;
+  }

@@ -1,0 +1,135 @@
+
+.highlight {
+    color: #D81324;
+  }
+
+.featureproduct{
+    height: 60rem;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.featureproduct-inner{
+    height: 100%;
+    width: 100%;
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 30px;
+    
+}
+.productSection{
+padding: 25px;
+}
+.explore-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-title {
+  font-weight: bolder;
+  margin-left: -16px;
+}
+
+.featurecontact-button {
+  background: #D81324;
+  color: white;
+  padding: 12px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.featurecontact-button img {
+  margin-left: 5px;
+}
+
+.featurecontact-button:hover {
+  background: #B50F1D;
+}
+
+.button2{
+    display: none;
+}
+
+.featureproduct-card p{
+    color: #555555;
+    text-align: left;
+}
+
+#featuredproducts{
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 9rem;
+    height: 35rem;
+}
+
+.featureproduct-name:hover {
+    /* Changes name color to white on hover */
+     word-wrap: "break-word"
+  }
+  
+  .featureproduct-card:hover .featureproduct-name{
+    color: white;
+  }
+  .featureproduct-card:hover .featureproduct-content {
+    color: white; /* Change both product name and content to white on hover */
+  }
+
+.featureproduct-card:hover {
+    background: linear-gradient(45deg, #000000 40%, #D81324 100%);
+    color: white;
+  }
+
+@media (max-width: 768px) {
+
+    .featureproduct{
+        height: 55rem;
+       
+    }
+
+    .mx-3{
+      margin-left: 20px !important;
+    }
+    .featureservices{
+        margin-left: 1rem;
+        line-height: 1.2;
+    }
+    #featuredproducts{
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-size: 25%;
+        height: 38rem;
+        
+    }
+    .explore-heading {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .featurecontact-button {
+      margin-top: 10px; /* Moves button below the heading */
+      align-self: flex-start;
+      margin-left: -17px;
+  }
+    .button2{
+        display: block;
+    }
+    .button1{
+        display: none;
+    }
+
+    .featureproduct-inner{
+        padding:5px;
+    }
+    
+
+}
