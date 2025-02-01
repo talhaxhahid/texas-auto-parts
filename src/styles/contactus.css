@@ -132,6 +132,9 @@
     .contactus h1 {
         text-align: center ;
     }
+    .contactus h4{
+        text-align: center ;
+    }
     .form-input, .form-textarea {
         font-size: 14px;
     }
