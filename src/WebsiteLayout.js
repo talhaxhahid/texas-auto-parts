@@ -39,7 +39,7 @@ const WebsiteLayout = ({ children }) => {
 
   return (
     <div className="layout">
-      <div className="top-bar">
+      <div className="top-bar" style={{zIndex:'5',position:'relative'}}>
         <div className="contact-info">
           <span>
             <img src={call} alt="Phone" /> +1 281-302-6820
@@ -64,7 +64,7 @@ const WebsiteLayout = ({ children }) => {
         </div>
       </div>
 
-      <nav className="navbar">
+      <nav className="navbar" style={{zIndex:'5',position:'relative'}}>
         <div className="navbar-logo">
           <img
             src={logo}
@@ -109,7 +109,7 @@ const WebsiteLayout = ({ children }) => {
                 className={activeLink === "/YourStatements" ? "active" : ""}
                 onClick={() => handleLinkClick("/YourStatements")}
               >
-                Your Statements
+                View Your Statement and Invoices
               </a>
             </li>
             <li className="hide-on-desktop">
@@ -144,7 +144,7 @@ const WebsiteLayout = ({ children }) => {
           <h2 className="footer-title">
             Ready to <span className="highlight">Order</span> Your Auto Parts?
           </h2>
-          <button className="order-now-btn">
+          <button className="order-now-btn" onClick={() => navigate('/OrderNow')}>
             Order Now
             <img src={arrow} alt="Order Arrow" className="arrow-icon" />
           </button>
@@ -216,10 +216,7 @@ const WebsiteLayout = ({ children }) => {
             <p>
               <img src={emailIcon} alt="Email" /> kash@txautoparts.net
             </p>
-            <p>
-              <img src={postboxIcon} alt="Postbox" /> PO Box 5355, Wayland, MA
-              01778
-            </p>
+            
           </div>
 
           <p className="footer-copyright">

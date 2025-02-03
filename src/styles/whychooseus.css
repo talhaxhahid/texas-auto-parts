@@ -71,6 +71,7 @@ padding: 25px;
         background-position: bottom center;
         background-size: 25%;
         height: 38rem;
+        margin-bottom: 3rem;
         
     }
     .button2{
@@ -82,6 +83,8 @@ padding: 25px;
 
     .roboticsproduct-inner{
         padding:5px;
+        padding-top: 1rem;
+        padding-bottom: 2rem;
     }
     
 

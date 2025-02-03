@@ -5,8 +5,12 @@ import "slick-carousel/slick/slick-theme.css";
 import s1 from "../assets/about-hero.png";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
+import {  useNavigate } from "react-router-dom";
+
+
 
 const AboutUsHeroSlider = () => {
+  const navigate = useNavigate();
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
 
   const settings = {
@@ -25,7 +29,12 @@ const AboutUsHeroSlider = () => {
     ),
     dotsClass: "slick-dots custom-dots",
   };
-
+  const handleScroll = () => {
+    const missionElement = document.getElementById('Mission');
+    if (missionElement) {
+      missionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Slider {...settings} className="hero-slider">
       <div className="slide">
@@ -35,7 +44,7 @@ const AboutUsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={handleScroll}>
                 Our Story
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
@@ -56,7 +65,7 @@ const AboutUsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/OrderNow')}>
                 Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

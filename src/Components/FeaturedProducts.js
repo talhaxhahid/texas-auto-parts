@@ -8,8 +8,10 @@ import featureproduct2 from "../assets/i2.png";
 import featureproduct3 from "../assets/i3.png";
 import featureproduct4 from "../assets/i4.png";
 import arrow from "../assets/arrow.png";
+import { useNavigate } from 'react-router-dom';
 
 const FeatureProducts = () => {
+  const navigate = useNavigate();
   const sliderSettings = {
     infinite: true,
     slidesToShow: 4,
@@ -95,7 +97,7 @@ const FeatureProducts = () => {
           >
             <div className="explore-heading">
               <h1 className="explore-title">Explore Our Product Categories</h1>
-              <button className="featurecontact-button">
+              <button className="featurecontact-button" onClick={() => window.open('https://nexpart.com/login.php', '_blank')}>
                 Start Ordering{" "}
                 <img src={arrow} alt="Arrow" width="10" height="12" />
               </button>

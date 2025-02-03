@@ -1,9 +1,12 @@
 .hero-slider {
     position: relative;
     top: -5rem;
-    z-index: -1;
+    z-index: 1;
+    
   }
-  
+  .hero-slider button{
+    user-select: text !important;
+  }
   .slide {
     position: relative;
     height: 100vh;
@@ -42,6 +45,10 @@
     justify-content: center;
     width: 100%;
   }
+  .slide-content button{
+    position: relative;
+    z-index: 2;
+  }
   
   .custom-dot {
     background-color: rgb(238, 236, 236);
@@ -74,7 +81,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0000009E; /* Black with transparency */
+    background-color: #0000009E; 
   }
   .home-slide::after{
     background-color: transparent !important;

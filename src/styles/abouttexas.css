@@ -28,6 +28,9 @@
   
   /* Responsive for mobile */
   @media (max-width: 768px) {
+    .aboutTexas{
+      padding-top: 0px !important;
+    }
     .abouttexas-container {
       flex-direction: column;
     }

@@ -53,6 +53,7 @@
   @media (max-width: 768px) {
     .product-card-mobile{
         display: block !important;
+        margin-top: 0.5rem;
       }
       .product-card-desktop{
         display: none !important;
@@ -98,6 +99,12 @@
       }
       .benefits-left h4{
         text-align: center !important;
+      }
+      .benefits-left button{
+        margin: auto;
+      }
+      .benefits-right .benefits-row{
+        gap: 0px;
       }
   }
   

@@ -78,10 +78,18 @@
     font-style: italic;
   
   }
+  @media (max-width:768px){
+    .missioncontainer{
+      padding-top: 0px;
+      margin-top: -1rem;
+    }
+    
+  }
   /* Responsive Styles */
   @media (min-width: 768px) {
     .missioncontainer {
       gap: 40px;
+      
     }
   
     .missioncontent {

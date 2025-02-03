@@ -204,10 +204,7 @@ body {
       }
   
   
-  .cta-button:hover {
-    background: #d81324;
-    color: white;
-  }
+  
   
 
 /* Responsive Design */
@@ -216,6 +213,9 @@ body {
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
+  }
+  .cta-section{
+    height: 317px;
   }
 
   .faq-subtext {

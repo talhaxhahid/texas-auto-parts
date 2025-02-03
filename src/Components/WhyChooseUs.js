@@ -55,7 +55,7 @@ const WhyChooseUs = () => {
     },
     {
      
-      name: "Fast & Reliable Shipping",
+      name: "Fast & Reliable Delivery",
       company: "We understand the urgency of repairs, offering quick delivery to keep your business moving.",
       image: product2,
     },

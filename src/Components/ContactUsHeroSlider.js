@@ -25,6 +25,9 @@ const ContactUsHeroSlider = () => {
     ),
     dotsClass: "slick-dots custom-dots",
   };
+  const sayhello = () => {
+    alert('hello how are you');
+  };
 
   return (
     <Slider {...settings} className="hero-slider">
@@ -35,6 +38,7 @@ const ContactUsHeroSlider = () => {
         <div className="slide-content">
           <h1 style={{fontWeight:'bolder'}}>Get in Touch with Texas Auto Parts</h1>
           <p>We’re here to help repair shops and mobile mechanics with all your part needs.</p>
+          
             
         </div>
       </div>

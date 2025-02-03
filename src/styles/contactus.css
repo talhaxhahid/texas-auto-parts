@@ -48,6 +48,7 @@
     color: rgb(44, 42, 42);
     font-size: 0.8rem;
 }
+
 .contactus textarea::placeholder{
     color: rgb(33, 32, 32);
     font-size: 0.8rem;
@@ -128,6 +129,11 @@
 @media (max-width: 768px) {
     .contactus{
         padding-right: 2rem;
+        padding-top: 0px;
+    }
+    .location{
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .contactus h1 {
         text-align: center ;

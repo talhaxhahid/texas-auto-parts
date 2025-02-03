@@ -367,7 +367,7 @@
   
   .contact-info-footer {
     display: flex;
-    justify-content: space-around; /* Center items horizontally */
+    justify-content: space-between; /* Center items horizontally */
     align-items: center; /* Align items vertically */
     gap: 1.5rem; /* Space between each item */
     text-align: left; /* Align text to the left for each item */
@@ -375,6 +375,8 @@
     font-size: 0.8rem;
     border-bottom: 1px solid#3D2A2C;
     padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   
   .contact-info-footer p {
@@ -428,6 +430,18 @@
     margin-top: 1rem;
   }
   
+ .hollow-button{
+  background-color: whitesmoke !important;
+  border: 1px solid #D81324 !important;
+  color: #D81324 !important;
+}
+ 
+.hollow-button:hover{
+  background-color:  #D81324 !important;
+  border: 1px solid #D81324 !important;
+  color: whitesmoke !important;
+}
+
   @media (max-width: 768px) {
     .footer-top {
       flex-direction: column;
@@ -514,6 +528,8 @@
       gap: 1rem;
       margin-left: -15px;
       padding: 10;
+      padding-left: 0px;
+      padding-right: 0px;
       /* margin-top: 1rem; */
     }
   

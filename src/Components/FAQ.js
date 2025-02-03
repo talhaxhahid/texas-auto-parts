@@ -4,9 +4,12 @@ import plus from "../assets/plusIcon.png";
 import { useLocation } from "react-router-dom";
 import arrow from "../assets/redArrow.png";
 import whiteplus from '../assets/whiteplus.png'
+import { useNavigate } from 'react-router-dom';
 
 const FAQ = () => {
   const location = useLocation();
+  const navigate = useNavigate();
+  
   const [selectedQuestion, setSelectedQuestion] = useState(
     "Who Can Order From Texas Auto Parts?"
   );
@@ -83,7 +86,7 @@ const FAQ = () => {
         <h3 className="cta-contact">Contact  <span className="cta-highlight"> Support</span></h3>
         <h1 className="cta-heading">Need Help with Your Order?</h1>
         <p>Our support team is here to assist you.</p>
-        <button className="cta-button" >
+        <button className="cta-button" onClick={() => navigate('/Contact')}>
             Contact Us
             <img src={arrow} alt="Order Arrow" className="arrow-icon" />
           </button>

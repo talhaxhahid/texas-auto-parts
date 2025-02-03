@@ -5,16 +5,17 @@ import "slick-carousel/slick/slick-theme.css";
 import s1 from "../assets/statements-hero.png";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
-
+import { useNavigate } from 'react-router-dom';
 const StatementsHeroSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
-
+  const navigate = useNavigate();
   const settings = {
     dots: true,
     infinite: true,
     speed: 1000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover:false,
     autoplay: true,
     autoplaySpeed: 5000,
     fade: true,
@@ -35,7 +36,7 @@ const StatementsHeroSlider = () => {
           <p>Easily access and manage your account statements and invoices through our secure platform.</p>
           
             
-              <button className="contact-button" style={{height:'45px'}}>
+              <button className="contact-button" style={{height:'45px'}} onClick={() => window.open('https://eoffice.epartconnection.com/wpLogin.aspx', '_blank')}>
               Login to View Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
@@ -56,7 +57,7 @@ const StatementsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/OrderNow')}>
                 Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

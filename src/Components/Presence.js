@@ -3,10 +3,11 @@ import '../styles/presence.css';
 import presence from '../assets/presence.png';
 import arrow from "../assets/arrow.png";
 import addressIcon from "../assets/addressIcon.png";
+import { useNavigate } from 'react-router-dom';
 
 
 const Presence= () => {
-
+    const navigate = useNavigate();
 
     return(<div className='presence' style={{}}> 
     <h4 className="" style={{ color: "#000000", textAlign: "left" }}>
@@ -17,7 +18,7 @@ const Presence= () => {
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Serving Repair Shops &
          Mobile Mechanics</h1>
          <p>With a strong network and reliable delivery, Texas Auto Parts is the trusted supplier for auto professionals throughout the state.</p>
-         <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+         <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/AboutUs')}>
                 Learn More
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

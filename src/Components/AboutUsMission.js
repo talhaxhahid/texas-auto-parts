@@ -4,7 +4,7 @@ import missionpic from "../assets/aboutusmission.png"
 
 const AboutUsMission = () => {
   return (
-    <div className="missioncontainer">
+    <div id="Mission" className="missioncontainer">
       <div className="missioncontent">
         <h3 className="missiontitle">
           About | <span className="missionhighlight">Texas Auto Parts</span>

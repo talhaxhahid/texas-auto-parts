@@ -5,10 +5,11 @@ import "slick-carousel/slick/slick-theme.css";
 import s1 from "../assets/homeslide1.png";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
+import { useNavigate } from 'react-router-dom';
 
 const HomeHeroSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
-
+  const navigate = useNavigate();
   const settings = {
     dots: true,
     infinite: true,
@@ -17,6 +18,7 @@ const HomeHeroSlider = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 5000,
+    pauseOnHover:false,
     fade: true,
     arrows: false,
     beforeChange: (oldIndex, newIndex) => setActiveIndex(newIndex), // Update active index
@@ -25,9 +27,10 @@ const HomeHeroSlider = () => {
     ),
     dotsClass: "slick-dots custom-dots",
   };
+  
 
   return (
-    <Slider {...settings} className="hero-slider">
+    <Slider  {...settings} className="hero-slider">
       <div className="slide home-slide">
         <img src={s1} alt="Slide 1" />
         <div className="slide-content">
@@ -35,7 +38,7 @@ const HomeHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/OrderNow')} >
                 Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
@@ -56,7 +59,7 @@ const HomeHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}}  onClick={() => navigate('/OrderNow')}>
                 Order Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>

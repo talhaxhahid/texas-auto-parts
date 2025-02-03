@@ -2,13 +2,13 @@ import React, { useState } from 'react';
 import '../styles/abouttexas.css';
 import aboutTexas from '../assets/abouttexas.png';
 import arrow from "../assets/arrow.png";
-
+import { useNavigate } from 'react-router-dom';
 
 
 const AboutTexas = () => {
 
-
-    return(<div  style={{padding:'2rem'}}> 
+    const navigate = useNavigate();
+    return(<div className='aboutTexas'  style={{padding:'2rem'}}> 
     <h4 className="" style={{ color: "#000000", textAlign: "left" }}>
         About | <span className="highlight">Texas Auto Parts</span> 
         </h4>
@@ -17,8 +17,8 @@ const AboutTexas = () => {
          <h1>Your Reliable Partner for Domestic & Foreign Auto Parts</h1>
         </div>
         <div className='abouttexas-right'>
-        <button className="contact-button" style={{width:'140px' ,height:'45px'}}>
-                Order Now
+        <button className="contact-button" style={{width:'140px' ,height:'45px'}}  onClick={() => navigate('/AboutUs')}>
+                Learn More
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
         </div>

@@ -21,8 +21,8 @@ const Benefits= () => {
         </h4>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem'}}>Why Order from Texas Auto Parts?</h1>
          
-         <button className="contact-button" style={{width:'300px' ,height:'45px'}}>
-         Browse Our Inventory on Nexpart
+         <button className="contact-button" style={{width:'150px' ,height:'45px'}} onClick={() => window.open('https://partstech.com/', '_blank')}>
+         Browse Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
         
