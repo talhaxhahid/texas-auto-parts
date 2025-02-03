@@ -5,12 +5,14 @@ import AboutUs from "./AboutUs";
 import OrderNow from "./OrderNow";
 import YourStatements from "./YourStatements";
 import ContactUs from "./ContactUs";
+import ScrollToTop from "./Components/ScrollToTop";
 
 
 function App() {
   
 return(
 <Router>
+  <ScrollToTop/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/AboutUs" element={<AboutUs/>} />
