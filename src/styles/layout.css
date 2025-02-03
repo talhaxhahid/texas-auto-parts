@@ -543,3 +543,13 @@
     }
   }
   
+  @media(min-width:768px){
+    .footer-right{
+      display: flex;
+      width: 15%;
+      flex-direction: column;
+      justify-items: left;
+      align-items: start;
+      flex: 0;
+  }
+  }
