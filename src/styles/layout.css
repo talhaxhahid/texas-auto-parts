@@ -367,7 +367,7 @@
   
   .contact-info-footer {
     display: flex;
-    justify-content: space-between; /* Center items horizontally */
+    justify-content: space-evenly; /* Center items horizontally */
     align-items: center; /* Align items vertically */
     gap: 1.5rem; /* Space between each item */
     text-align: left; /* Align text to the left for each item */

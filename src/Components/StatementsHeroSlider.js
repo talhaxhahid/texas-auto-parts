@@ -43,27 +43,6 @@ const StatementsHeroSlider = () => {
             
         </div>
       </div>
-      <div className="slide">
-        <img src={s1} alt="Slide 2" />
-        <div className="slide-content">
-          <h1>Reliable and Affordable</h1>
-          <p>Find the best auto parts for your business</p>
-        </div>
-      </div>
-      <div className="slide">
-        <img src={s1} alt="Slide 1" />
-        <div className="slide-content">
-          <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
-          <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
-          
-            
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/OrderNow')}>
-                Order Now
-                <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
-              </button>
-            
-        </div>
-      </div>
     </Slider>
   );
 };

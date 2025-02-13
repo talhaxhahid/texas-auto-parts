@@ -65,14 +65,6 @@ const OrderNowHeroSlider = () => {
           </div>
         </div>
       </div>
-
-      <div className="slide">
-        <img src={s1} alt="Slide 2" />
-        <div className="slide-content">
-          <h1>Reliable and Affordable</h1>
-          <p>Find the best auto parts for your business</p>
-        </div>
-      </div>
     </Slider>
   );
 };

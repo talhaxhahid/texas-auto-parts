@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import s1 from "../assets/homeslide1.png";
+import s2 from "../assets/homeslide2.jpg";
+import s3 from "../assets/homeslide3.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 import { useNavigate } from 'react-router-dom';
@@ -46,14 +48,21 @@ const HomeHeroSlider = () => {
         </div>
       </div>
       <div className="slide home-slide">
-        <img src={s1} alt="Slide 2" />
+        <img src={s2} alt="Slide 2" />
         <div className="slide-content">
-          <h1>Reliable and Affordable</h1>
-          <p>Find the best auto parts for your business</p>
+          <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
+          <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
+          
+            
+              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={() => navigate('/OrderNow')} >
+                Order Now
+                <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
+              </button>
+            
         </div>
       </div>
       <div className="slide home-slide">
-        <img src={s1} alt="Slide 1" />
+        <img src={s3} alt="Slide 1" />
         <div className="slide-content">
           <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>

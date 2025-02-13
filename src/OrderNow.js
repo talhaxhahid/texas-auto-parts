@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import WebsiteLayout from './WebsiteLayout';
 import OrderNowHeroSlider from './Components/OrderNowHeroSlider';
 import HowItWorks from './Components/HowItWorks';
-import FeatureProducts from './Components/FeaturedProducts';
 import Benefits from './Components/Benefits';
 import FAQ from './Components/FAQ';
+import OrderNowProducts from './Components/OrderNowProducts';
 
 
 const OrderNow = () => {
@@ -15,7 +15,7 @@ const OrderNow = () => {
     <OrderNowHeroSlider/>
     <Benefits/>
     <HowItWorks/>
-    <FeatureProducts/>
+    <OrderNowProducts/>
     <FAQ/>
     </WebsiteLayout>
     </>);
