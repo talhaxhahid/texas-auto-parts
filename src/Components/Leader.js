@@ -1,6 +1,6 @@
 import React from "react";
 import "../../src/styles/meetleader.css";
-import leader from "../assets/leader.png";
+import leader from "../assets/leader.jpg";
 import ctqimg from "../assets/ctq-img.png";
 
 const MeetLeader = () => {
