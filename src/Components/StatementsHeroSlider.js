@@ -26,17 +26,22 @@ const StatementsHeroSlider = () => {
     ),
     dotsClass: "slick-dots custom-dots",
   };
-
+  const handleScroll = () => {
+    const missionElement = document.getElementById('howtoaccess');
+    if (missionElement) {
+      missionElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
   return (
     <Slider {...settings} className="hero-slider">
       <div className="slide">
         <img src={s1} alt="Slide 1" />
         <div className="slide-content">
-          <h1>View Your Statements & Invoices</h1>
-          <p>Easily access and manage your account statements and invoices through our secure platform.</p>
+          <h1 style={{fontSize:'255%'}}>View Your Statements & Invoices</h1>
+          <p style={{fontSize:'125%'}}><b>Easily access and manage your account statements and invoices through our secure platform.</b></p>
           
             
-              <button className="contact-button" style={{height:'45px'}} onClick={() => window.open('https://eoffice.epartconnection.com/wpLogin.aspx', '_blank')}>
+              <button className="contact-button" style={{height:'45px'}} onClick={handleScroll}>
               Login to View Now
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </button>
