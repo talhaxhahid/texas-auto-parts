@@ -185,7 +185,7 @@ const WebsiteLayout = ({ children }) => {
           </div>
         </div>
 
-        <div className="footer-left">
+        {/* <div className="footer-left">
           <div className="subscribe-section">
             <h3 className="subscribe-title">Subscribe</h3>
             <p className="subscribe-text">
@@ -214,7 +214,7 @@ const WebsiteLayout = ({ children }) => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Section */}
         <div className="footer-bottom">
