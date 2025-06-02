@@ -14,7 +14,6 @@ const OrderNow = () => {
     <WebsiteLayout>
     <OrderNowHeroSlider/>
     <Benefits/>
-    <HowItWorks/>
     <OrderNowProducts/>
     </WebsiteLayout>
     </>);

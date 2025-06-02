@@ -16,7 +16,6 @@ const Home = () => {
     <HomeHeroSlider/>
     <AboutTexas/>
     <WhyChooseUs/>
-    <HowItWorks/>
     <FeatureProducts/>
     <Presence/>
     <BecomePartner/>
