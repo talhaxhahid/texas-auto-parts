@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s1 from "../assets/about-hero.png";
-import s2 from "../assets/homeslide2.jpg";
-import s3 from "../assets/homeslide3.jpg";
+import s1 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_9643fc08.jpg";
+import s2 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_a59a12ac.jpg";
+import s3 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_931b16d7.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 import {  useNavigate } from "react-router-dom";
@@ -47,10 +47,10 @@ const AboutUsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={handleScroll}>
-                Our Story
+              <a className="register-button" style={{width:'180px' ,height:'45px'}} href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
+                Click here to Register
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
-              </button>
+              </a>
             
         </div>
       </div>
@@ -61,10 +61,10 @@ const AboutUsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={handleScroll}>
-                Our Story
+              <a className="register-button" style={{width:'180px' ,height:'45px'}} href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
+                Click here to Register
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
-              </button>
+              </a>
             
         </div>
       </div>
@@ -75,10 +75,14 @@ const AboutUsHeroSlider = () => {
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
-              <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={handleScroll}>
+              {/* <button className="contact-button" style={{width:'140px' ,height:'45px'}} onClick={handleScroll}>
                 Our Story
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
-              </button>
+              </button> */}
+              <a className="register-button" style={{width:'180px' ,height:'45px'}} href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
+                Click here to Register
+                <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
+              </a>
             
         </div>
       </div>
