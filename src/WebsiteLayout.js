@@ -9,6 +9,7 @@ import twitter from "./assets/twitter.png";
 import call from "./assets/call.png";
 import timeline from "./assets/timeline.png";
 import AnimatedButton from "./Components/AnimatedButton";
+import RegisterButton from "./Components/RegisterButton";
 import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
 import emailIcon from "./assets/emailIcon.png";
@@ -121,7 +122,19 @@ const WebsiteLayout = ({ children }) => {
                 Contact Us
               </a>
             </li>
+            <li className="hide-on-desktop">
+              <a
+                href="https://forms.gle/th22N9s5qc5oEHJL6"
+                className={activeLink === "/Register" ? "active" : ""}
+                onClick={() => handleLinkClick("https://forms.gle/th22N9s5qc5oEHJL6")}
+              >
+                Register Now
+              </a>
+            </li>
           </ul>
+          <a className="hide-on-mobile" onClick={() => handleLinkClick("https://forms.gle/th22N9s5qc5oEHJL6")}>
+            <RegisterButton text="Register Now" link="" />
+          </a>
           <a className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
             <AnimatedButton text="Contact Us" link="" />
           </a>
