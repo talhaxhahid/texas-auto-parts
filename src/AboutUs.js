@@ -18,7 +18,6 @@ const AboutUs = () => {
     <AboutUsMission/>
     <Journey/>
     <WhyChooseUs/>
-    <MeetLeader/>
     <WhatWeOffer/>
     <Partner/>
     </WebsiteLayout>
