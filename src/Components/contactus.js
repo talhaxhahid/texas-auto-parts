@@ -160,7 +160,7 @@ const ContactUsForm = () => {
                                     12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
+                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>inquiries@txautoparts.net</u>
                                 </p>
                             </div>
                             <div className="presence-address2">
@@ -172,7 +172,7 @@ const ContactUsForm = () => {
                                     12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
+                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>inquiries@txautoparts.net</u>
                                 </p>
                             </div>
                         </div>

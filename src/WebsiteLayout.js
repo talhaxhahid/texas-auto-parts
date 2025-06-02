@@ -227,7 +227,7 @@ const WebsiteLayout = ({ children }) => {
               Sugar Land TX 77478
             </p>
             <p>
-              <img src={emailIcon} alt="Email" /> kash@txautoparts.net
+              <img src={emailIcon} alt="Email" /> inquiries@txautoparts.net
             </p>
             
           </div>
