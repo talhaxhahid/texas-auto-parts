@@ -179,7 +179,7 @@ const ContactUsForm = () => {
 
                         {/* Social Media Icons */}
                         <div className="col-12 col-md-6">
-                            <div className="contactus-social" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
+                            {/* <div className="contactus-social" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
                                 <div className="social-links">
                                     <div className="social-icons-footer" style={{ marginLeft: "0px", padding: "0px" }}>
                                         <a href="#" aria-label="Facebook">
@@ -196,7 +196,7 @@ const ContactUsForm = () => {
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
