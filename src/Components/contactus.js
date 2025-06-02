@@ -157,7 +157,7 @@ const ContactUsForm = () => {
                                     <span className="highlight"> Texas Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                    12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
                                     <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
@@ -169,7 +169,7 @@ const ContactUsForm = () => {
                                     <span className="highlight"> Texas Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                    12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
                                     <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>

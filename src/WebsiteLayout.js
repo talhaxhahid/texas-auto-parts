@@ -223,7 +223,7 @@ const WebsiteLayout = ({ children }) => {
               <img src={phone} alt="Phone" /> +1 281-302-6820
             </p>
             <p>
-              <img src={addressIcon} alt="Address" /> 12505 Reed Rd Suit 145
+              <img src={addressIcon} alt="Address" /> 12505 Reed Rd Suite 145
               Sugar Land TX 77478
             </p>
             <p>

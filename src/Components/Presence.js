@@ -26,7 +26,7 @@ const Presence= () => {
         <p style={{fontWeight:'bold' , display:'flex' ,alignItems:'center' ,marginTop:'3.5rem'}}>
               <img src={addressIcon}  style={{marginRight:'0.8rem'}} alt="Address" />   USA &nbsp; <span className="highlight"> Texas Auto Parts</span>
             </p>
-        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suit 145 Sugar Land TX 77478</p>
+        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suite 145 Sugar Land TX 77478</p>
         <p><span style={{fontWeight:'bold'}}>Email us:</span> <u>kash@txautoparts.net</u></p>
         </div>
         </div>
@@ -41,7 +41,7 @@ const Presence= () => {
         <p style={{fontWeight:'bold' , display:'flex' ,alignItems:'center' ,marginTop:'0rem'}}>
               <img src={addressIcon}  style={{marginRight:'0.8rem'}} alt="Address" />   USA &nbsp; <span className="highlight"> Texas Auto Parts</span>
             </p>
-        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suit 145 Sugar Land TX 77478</p>
+        <p style={{color:'grey',fontSize:'0.8rem'}}>12505 Reed Rd Suite 145 Sugar Land TX 77478</p>
         <p><span style={{fontWeight:'bold'}}>Email us:</span> <u>kash@txautoparts.net</u></p>
         </div>
     
