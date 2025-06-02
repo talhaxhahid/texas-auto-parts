@@ -14,7 +14,6 @@ const ContactUs = () => {
     <ContactUsHeroSlider/>
     <ContactUsForm/>
     <Location/>
-    <FAQ/>
     </WebsiteLayout>
     </>);
 
