@@ -54,19 +54,19 @@ const Journey= () => {
          <div className='journey-right'>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>
-            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2010-Founded</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Texas Auto Parts was founded with a mission to supply high-quality auto parts to repair shops and mobile mechanics across Texas.”</p></div>
+            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2018-Founded</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Texas Auto Parts was founded with a mission to supply high-quality auto parts to repair shops and mobile mechanics across Texas.”</p></div>
          </div>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>
-            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2014 – Expansion into Foreign Auto Parts</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Expanded our inventory to include parts for foreign vehicles, ensuring we meet the needs of all mechanics”</p></div>
+            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2020 – Expansion into Foreign Auto Parts</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Expanded our inventory to include parts for foreign vehicles, ensuring we meet the needs of all mechanics”</p></div>
          </div>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>
-            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2018 – Key Partnership with Major Brands</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>"Partnered with leading automotive brands to offer top-quality products and unmatched reliability."</p></div>
+            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2020 – Key Partnership with Major Brands</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>"Partnered with leading automotive brands to offer top-quality products and unmatched reliability."</p></div>
          </div>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>
-            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2022 – Digital Transformation</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>"Launched our online ordering system to simplify the parts ordering process for our clients."</p></div>
+            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2024 – Digital Transformation</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>"Launched our online ordering system to simplify the parts ordering process for our clients."</p></div>
          </div>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img></div>
