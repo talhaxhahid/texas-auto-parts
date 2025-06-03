@@ -5,7 +5,7 @@ import HowItWorks from './Components/HowItWorks';
 import Benefits from './Components/Benefits';
 import FAQ from './Components/FAQ';
 import OrderNowProducts from './Components/OrderNowProducts';
-
+import LoginInfo from './Components/OrderLoginDetails'
 
 const OrderNow = () => {
 
@@ -14,6 +14,7 @@ const OrderNow = () => {
     <WebsiteLayout>
     <OrderNowHeroSlider/>
     <Benefits/>
+    <LoginInfo/>
     <OrderNowProducts/>
     </WebsiteLayout>
     </>);

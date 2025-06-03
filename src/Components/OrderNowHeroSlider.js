@@ -30,6 +30,13 @@ const OrderNowHeroSlider = () => {
     dotsClass: "slick-dots custom-dots",
   };
 
+    const handleScroll = (div) => {
+    const targetElement = document.getElementById(div);
+    if (targetElement) {
+      targetElement.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <Slider {...settings} className="hero-slider">
       <div className="slide">
@@ -42,7 +49,7 @@ const OrderNowHeroSlider = () => {
             <button
               className="contact-button"
               style={{ height: "45px" }}
-              onClick={() => window.open("https://nexpart.com/login.php", "_blank")}
+              onClick={() => handleScroll('nexpart')}
             >
               Order From NexPart
               <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
@@ -51,7 +58,7 @@ const OrderNowHeroSlider = () => {
             <button
               className="contact-button hollow-button"
               style={{ height: "45px" }}
-              onClick={() => window.open("https://partstech.com/", "_blank")}
+              onClick={() => handleScroll('partstech')}
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
