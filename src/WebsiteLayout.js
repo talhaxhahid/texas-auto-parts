@@ -46,10 +46,10 @@ const WebsiteLayout = ({ children }) => {
             <img src={call} alt="Phone" /> +1 281-302-6820
           </span>
           <span className="opening-hrs">
-            <img src={timeline} alt="Clock" /> Opening hours: 8am - 5pm
+            <img src={timeline} alt="Clock" /> Opening hours: 8AM - 5PM | Deliveries: 9AM - 4:15PM
           </span>
         </div>
-        <div className="social-icons">
+        {/* <div className="social-icons">
           <a href="#">
             <img src={facebook} alt="Facebook" />
           </a>
@@ -62,7 +62,7 @@ const WebsiteLayout = ({ children }) => {
           <a href="#">
             <img src={twitter} alt="Twitter" />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <nav className="navbar" style={{zIndex:'5',position:'relative'}}>
