@@ -31,7 +31,7 @@ const Presence= () => {
         </div>
         </div>
         <div className='presence-right'>
-        <div className='presence-image'></div>
+        {/* <div className='presence-image'></div> */}
         </div>
 
         
