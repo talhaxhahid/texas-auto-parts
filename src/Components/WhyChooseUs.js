@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
     {
       
       name: "Exclusive B2B Service",
-      company: "We cater exclusively to repair shops and mobile mechanics, ensuring specialized support and products tailored for professionals.",
+      company: "We cater exclusively to repair shops, dealerships and mobile mechanics, ensuring specialized support and products tailored for professionals.",
       image: product1,
     },
     {

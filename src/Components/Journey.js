@@ -54,7 +54,7 @@ const Journey= () => {
          <div className='journey-right'>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>
-            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2018-Founded</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Texas Auto Parts was founded with a mission to supply high-quality auto parts to repair shops and mobile mechanics across Texas.”</p></div>
+            <div className='journey-content'><h3 style={{fontWeight:'500' ,color:'white'}} >2018-Founded</h3><p style={{color:'white',marginTop:'0.8rem',marginBottom:'1.8rem' ,fontSize:'0.9rem'}}>“Texas Auto Parts was founded with a mission to supply high-quality auto parts to repair shops, mobile mechanics, and dealerships across Texas.”</p></div>
          </div>
          <div className='journey-details'>
             <div className='journey-icon'> <img src={icon} style={{height:'20px',width:'20px'}}></img><div className="vertical-line"></div></div>

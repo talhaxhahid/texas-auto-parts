@@ -120,7 +120,7 @@ const Partner= () => {
         <div className='becomepartner-left' style={{width:'100%',backgroundPosition:'bottom'}}>
         <span className="highlight"> Texas Auto Parts</span>
          <h1 style={{fontWeight:'bold' , fontSize:'2.5rem',color:'white'}}>Ready to Partner with Us?</h1>
-         <p style={{color:'white'}}>Join the many repair shops and mobile mechanics who trust Texas Auto Parts.</p>
+         <p style={{color:'white'}}>Join the many repair shops, mobile mechanics, and dealerships who trust Texas Auto Parts.</p>
          <a className="contact-button" style={{width:'190px' ,height:'45px'}} href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
                 Become a Partner
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>

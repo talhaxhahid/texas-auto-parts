@@ -36,7 +36,7 @@ const OrderNowHeroSlider = () => {
         <img src={s1} alt="Slide 1" />
         <div className="slide-content">
           <h1>Order High-Quality Auto Parts Today</h1>
-          <p>Fast and reliable access to domestic & foreign auto parts for repair shops and mobile mechanics.</p>
+          <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
 
           <div style={{ display: "flex", gap: "10px" }}>
             <button

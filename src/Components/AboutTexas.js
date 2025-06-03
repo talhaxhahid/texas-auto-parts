@@ -26,7 +26,7 @@ const AboutTexas = () => {
         
 
     </div>
-    <p>At Texas Auto Parts, we specialize in providing top-quality under-the-hood components for repair shops and mobile mechanics across Texas. With a commitment to excellence, we offer a wide range of electrical, suspension, cooling parts, and automotive lubricants tailored to meet the demands of professionals.</p>
+    <p>At Texas Auto Parts, we specialize in providing top-quality under-the-hood components for repair shops, mobile mechanics, and dealerships across Texas. With a commitment to excellence, we offer a wide range of electrical, suspension, cooling parts, and automotive lubricants tailored to meet the demands of professionals.</p>
     <div className='abouttexas-image'>
 
     </div>

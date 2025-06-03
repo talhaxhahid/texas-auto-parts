@@ -36,7 +36,7 @@ const HomeHeroSlider = () => {
       <div className="slide home-slide">
         <img src={s1} alt="Slide 1" />
         <div className="slide-content">
-          <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
+          <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
@@ -50,7 +50,7 @@ const HomeHeroSlider = () => {
       <div className="slide home-slide">
         <img src={s2} alt="Slide 2" />
         <div className="slide-content">
-          <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
+          <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             
@@ -64,7 +64,7 @@ const HomeHeroSlider = () => {
       <div className="slide home-slide">
         <img src={s3} alt="Slide 1" />
         <div className="slide-content">
-          <h1>High-Quality Auto Parts for Repair Shops & Mobile Mechanics</h1>
+          <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
           <p>Specializing in Domestic & Foreign Under-the-Hood Components</p>
           
             

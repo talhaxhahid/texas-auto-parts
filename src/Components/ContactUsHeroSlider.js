@@ -37,7 +37,7 @@ const ContactUsHeroSlider = () => {
         <img src={s1} alt="Slide 1"  style={{objectPosition:'center'}}/>
         <div className="slide-content">
           <h1 style={{fontWeight:'bolder'}}>Get in Touch with Texas Auto Parts</h1>
-          <p>We’re here to help repair shops and mobile mechanics with all your part needs.</p>
+          <p>We’re here to help repair shops, mobile mechanics, and dealerships with all your part needs.</p>
           
             
         </div>

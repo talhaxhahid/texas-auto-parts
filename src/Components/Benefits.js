@@ -135,7 +135,7 @@ const Benefits= () => {
                     }
 
                     >
-                      Dedicated service for repair shops and mobile mechanics.
+                      Dedicated service for repair shops, mobile mechanics and dealerships.
                     </p>
                   </div>
                 </div>

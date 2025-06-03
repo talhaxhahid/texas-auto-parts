@@ -14,7 +14,7 @@ const AboutUsMission = () => {
         </h1>
         <p className="missiondescription">
           At Texas Auto Parts, we specialize in providing top-quality
-          under-the-hood components for repair shops and mobile mechanics across
+          under-the-hood components for repair shops, mobile mechanics, and dealerships across
           Texas. With a commitment to excellence, we offer a wide range of
           electrical, suspension, cooling parts, and automotive lubricants
           tailored to meet the demands of professionals.
@@ -31,8 +31,8 @@ const AboutUsMission = () => {
             Our <span className="missionhighlight">Mission</span> & Vision
           </h1>
           <p className="mission-description">
-            At Texas Auto Parts, our mission is to empower repair shops and
-            mobile mechanics with high-quality, reliable auto parts. We aim to
+            At Texas Auto Parts, our mission is to empower repair shops,
+            mobile mechanics, and dealerships with high-quality, reliable auto parts. We aim to
             be the trusted partner in keeping vehicles on the road.{" "}
             <span className="mission-italic">
               Our vision is to lead the industry in delivering superior
