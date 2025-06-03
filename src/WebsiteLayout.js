@@ -157,10 +157,16 @@ const WebsiteLayout = ({ children }) => {
           <h2 className="footer-title">
             Ready to <span className="highlight">Order</span> Your Auto Parts?
           </h2>
+          <div style={{display:'flex',justifyContent:'center',gap:'0px'}}>
           <button className="order-now-btn" onClick={() => navigate('/OrderNow')}>
             Order Now
             <img src={arrow} alt="Order Arrow" className="arrow-icon" />
           </button>
+          <a className="order-now-btn" href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
+            Register Now
+            <img src={arrow} alt="Order Arrow" className="arrow-icon" />
+          </a>
+          </div>
         </div>
 
         {/* Middle Section */}
