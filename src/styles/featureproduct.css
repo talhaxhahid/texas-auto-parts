@@ -84,10 +84,10 @@ padding: 25px;
     color: white; /* Change both product name and content to white on hover */
   }
 
-.featureproduct-card:hover {
+/* .featureproduct-card:hover {
     background: linear-gradient(45deg, #000000 40%, #D81324 100%);
     color: white;
-  }
+  } */
 
 @media (max-width: 768px) {
 
