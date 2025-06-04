@@ -96,7 +96,7 @@ const Vendors = () => {
       <div className="featureproduct-inner" style={{ paddingLeft: "0px", marginLeft: "-30px" }}>
         <h4
           className="mx-3"
-          style={{ color: "#000000", textAlign: "center", marginLeft: "40px" }}
+          style={{ color: "#000000", textAlign: "center", marginLeft: "30px" }}
         >
           Our | <span className="highlight">Suppliers</span>
         </h4>
