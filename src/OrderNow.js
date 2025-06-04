@@ -4,7 +4,7 @@ import OrderNowHeroSlider from './Components/OrderNowHeroSlider';
 import HowItWorks from './Components/HowItWorks';
 import Benefits from './Components/Benefits';
 import FAQ from './Components/FAQ';
-import OrderNowProducts from './Components/OrderNowProducts';
+import Vendors from './Components/Vendors';
 import LoginInfo from './Components/OrderLoginDetails'
 
 const OrderNow = () => {
@@ -15,7 +15,7 @@ const OrderNow = () => {
     <OrderNowHeroSlider/>
     <Benefits/>
     <LoginInfo/>
-    <OrderNowProducts/>
+    <Vendors/>
     </WebsiteLayout>
     </>);
 

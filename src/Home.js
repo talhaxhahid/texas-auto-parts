@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import WebsiteLayout from './WebsiteLayout';
 import HomeHeroSlider from './Components/HomeHeroSlider';
-import FeatureProducts from './Components/FeaturedProducts';
+import Vendors from './Components/Vendors';
 import WhyChooseUs from './Components/WhyChooseUs';
 import AboutTexas from './Components/AboutTexas';
 import Presence from './Components/Presence';
@@ -16,7 +16,7 @@ const Home = () => {
     <HomeHeroSlider/>
     <AboutTexas/>
     <WhyChooseUs/>
-    <FeatureProducts/>
+    <Vendors/>
     <Presence/>
     <BecomePartner/>
     </WebsiteLayout>
