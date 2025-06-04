@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s1 from "../assets/contactus-slide.png";
+import s1 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_931b16d7.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 

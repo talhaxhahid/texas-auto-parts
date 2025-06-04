@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s1 from "../assets/homeslide1.png";
-import s2 from "../assets/slide2.png";
-import s3 from "../assets/slide3.png";
+import s1 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_9643fc08.jpg";
+import s2 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_a59a12ac.jpg";
+import s3 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_931b16d7.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 import { useNavigate } from 'react-router-dom';
@@ -33,7 +33,7 @@ const HomeHeroSlider = () => {
 
   return (
     <Slider  {...settings} className="hero-slider">
-      <div className="slide home-slide">
+      <div className="slide">
         <img src={s1} alt="Slide 1" />
         <div className="slide-content">
           <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
@@ -47,7 +47,7 @@ const HomeHeroSlider = () => {
             
         </div>
       </div>
-      <div className="slide home-slide">
+      <div className="slide">
         <img src={s2} alt="Slide 2" />
         <div className="slide-content">
           <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
@@ -61,7 +61,7 @@ const HomeHeroSlider = () => {
             
         </div>
       </div>
-      <div className="slide home-slide">
+      <div className="slide">
         <img src={s3} alt="Slide 1" />
         <div className="slide-content">
           <h1>High-Quality Auto Parts for Repair Shops, Mobile Mechanics, and Dealerships</h1>
