@@ -5,6 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 import s1 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_9643fc08.jpg";
 import s2 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_a59a12ac.jpg";
 import s3 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_931b16d7.jpg";
+import s4 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_e12866d2.jpg";
+import s5 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_f447afef.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
 import redarrow from "../assets/red-arrow.png";
@@ -43,6 +45,138 @@ const OrderNowHeroSlider = () => {
     <Slider {...settings} className="hero-slider">
       <div className="slide">
         <img src={s1} alt="Slide 1" />
+        <div className="slide-content">
+          <h1>Order High-Quality Auto Parts Today</h1>
+          <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
+
+          <div style={{ display: "flex", gap: "10px" }}>
+            <button
+              className="contact-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('nexpart')}
+            >
+              Order From NexPart
+              <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
+            </button>
+
+            <button
+              className="contact-button hollow-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('partstech')}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Order From PartsTech
+              <img
+                src={isHovered ? arrow : redarrow}
+                style={{ width: "16px", height: "16px" }}
+                alt="arrow"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="slide">
+        <img src={s2} alt="Slide 1" />
+        <div className="slide-content">
+          <h1>Order High-Quality Auto Parts Today</h1>
+          <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
+
+          <div style={{ display: "flex", gap: "10px" }}>
+            <button
+              className="contact-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('nexpart')}
+            >
+              Order From NexPart
+              <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
+            </button>
+
+            <button
+              className="contact-button hollow-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('partstech')}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Order From PartsTech
+              <img
+                src={isHovered ? arrow : redarrow}
+                style={{ width: "16px", height: "16px" }}
+                alt="arrow"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="slide">
+        <img src={s3} alt="Slide 1" />
+        <div className="slide-content">
+          <h1>Order High-Quality Auto Parts Today</h1>
+          <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
+
+          <div style={{ display: "flex", gap: "10px" }}>
+            <button
+              className="contact-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('nexpart')}
+            >
+              Order From NexPart
+              <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
+            </button>
+
+            <button
+              className="contact-button hollow-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('partstech')}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Order From PartsTech
+              <img
+                src={isHovered ? arrow : redarrow}
+                style={{ width: "16px", height: "16px" }}
+                alt="arrow"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="slide">
+        <img src={s4} alt="Slide 1" />
+        <div className="slide-content">
+          <h1>Order High-Quality Auto Parts Today</h1>
+          <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
+
+          <div style={{ display: "flex", gap: "10px" }}>
+            <button
+              className="contact-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('nexpart')}
+            >
+              Order From NexPart
+              <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
+            </button>
+
+            <button
+              className="contact-button hollow-button"
+              style={{ height: "45px" }}
+              onClick={() => handleScroll('partstech')}
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
+              Order From PartsTech
+              <img
+                src={isHovered ? arrow : redarrow}
+                style={{ width: "16px", height: "16px" }}
+                alt="arrow"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="slide">
+        <img src={s5} alt="Slide 1" />
         <div className="slide-content">
           <h1>Order High-Quality Auto Parts Today</h1>
           <p>Fast and reliable access to domestic & foreign auto parts for repair shops, mobile mechanics, and dealerships.</p>
