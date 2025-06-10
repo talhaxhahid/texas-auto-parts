@@ -27,6 +27,7 @@ const LoginInfo = () => {
                 <  img src={arrow}  style={{width:'15px' , height:'15px'}}></img>
               </a>
         </div>
+    <hr style={{borderWidth:'0.5px'}}/>
     </div>
 
     );
