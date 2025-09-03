@@ -126,13 +126,13 @@ const WebsiteLayout = ({ children }) => {
               <a
                 href="https://forms.gle/th22N9s5qc5oEHJL6"
                 className={activeLink === "/Register" ? "active" : ""}
-                onClick={() => handleLinkClick("https://forms.gle/th22N9s5qc5oEHJL6")}
+                onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}
               >
                 Register Now
               </a>
             </li>
           </ul>
-          <a className="hide-on-mobile" onClick={() => handleLinkClick("https://forms.gle/th22N9s5qc5oEHJL6")}>
+          <a className="hide-on-mobile" onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}>
             <RegisterButton text="Register Now" link="" />
           </a>
           <a className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
