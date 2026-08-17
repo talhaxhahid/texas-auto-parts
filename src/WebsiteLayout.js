@@ -9,6 +9,7 @@ import twitter from "./assets/twitter.png";
 import call from "./assets/call.png";
 import timeline from "./assets/timeline.png";
 import AnimatedButton from "./Components/AnimatedButton";
+import RegisterButton from "./Components/RegisterButton";
 import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
 import emailIcon from "./assets/emailIcon.png";
@@ -45,10 +46,10 @@ const WebsiteLayout = ({ children }) => {
             <img src={call} alt="Phone" /> +1 281-302-6820
           </span>
           <span className="opening-hrs">
-            <img src={timeline} alt="Clock" /> Opening hours: 8am - 5pm
+            <img src={timeline} alt="Clock" /> Opening hours: 8AM - 5PM | Deliveries: 9AM - 4:15PM
           </span>
         </div>
-        <div className="social-icons">
+        {/* <div className="social-icons">
           <a href="#">
             <img src={facebook} alt="Facebook" />
           </a>
@@ -61,7 +62,7 @@ const WebsiteLayout = ({ children }) => {
           <a href="#">
             <img src={twitter} alt="Twitter" />
           </a>
-        </div>
+        </div> */}
       </div>
 
       <nav className="navbar" style={{zIndex:'5',position:'relative'}}>
@@ -121,7 +122,19 @@ const WebsiteLayout = ({ children }) => {
                 Contact Us
               </a>
             </li>
+            <li className="hide-on-desktop">
+              <a
+                href="https://forms.gle/th22N9s5qc5oEHJL6"
+                className={activeLink === "/Register" ? "active" : ""}
+                onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}
+              >
+                Register Now
+              </a>
+            </li>
           </ul>
+          <a className="hide-on-mobile" onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}>
+            <RegisterButton text="Register Now" link="" />
+          </a>
           <a className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
             <AnimatedButton text="Contact Us" link="" />
           </a>
@@ -144,10 +157,16 @@ const WebsiteLayout = ({ children }) => {
           <h2 className="footer-title">
             Ready to <span className="highlight">Order</span> Your Auto Parts?
           </h2>
+          <div style={{display:'flex',justifyContent:'center',gap:'0px'}}>
           <button className="order-now-btn" onClick={() => navigate('/OrderNow')}>
             Order Now
             <img src={arrow} alt="Order Arrow" className="arrow-icon" />
           </button>
+          <a className="order-now-btn" href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
+            Register Now
+            <img src={arrow} alt="Order Arrow" className="arrow-icon" />
+          </a>
+          </div>
         </div>
 
         {/* Middle Section */}
@@ -172,7 +191,7 @@ const WebsiteLayout = ({ children }) => {
           </div>
         </div>
 
-        <div className="footer-left">
+        {/* <div className="footer-left">
           <div className="subscribe-section">
             <h3 className="subscribe-title">Subscribe</h3>
             <p className="subscribe-text">
@@ -201,7 +220,7 @@ const WebsiteLayout = ({ children }) => {
               </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Bottom Section */}
         <div className="footer-bottom">
@@ -210,11 +229,11 @@ const WebsiteLayout = ({ children }) => {
               <img src={phone} alt="Phone" /> +1 281-302-6820
             </p>
             <p>
-              <img src={addressIcon} alt="Address" /> 12505 Reed Rd Suit 145
+              <img src={addressIcon} alt="Address" /> 12505 Reed Rd Suite 145
               Sugar Land TX 77478
             </p>
             <p>
-              <img src={emailIcon} alt="Email" /> kash@txautoparts.net
+              <img src={emailIcon} alt="Email" /> inquiries@txautoparts.net
             </p>
             
           </div>

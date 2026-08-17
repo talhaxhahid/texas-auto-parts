@@ -30,4 +30,35 @@
     background: #D81324;
   }
   
+.register-btn {
+    position: absolute;
+    right: 155px;  /* Adjust right distance */
+    top: 50%;     /* Vertically centers */
+    transform: translateY(-50%); /* Adjusts the exact vertical position */
+  }
   
+  
+  .register-button {
+    background: #D81324;
+    color: white;
+    padding: 13px 15px;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .register-button img {
+    margin-left: 5px;
+  }
+  
+  .register-button:hover {
+    background: #D81324;
+  }
+   

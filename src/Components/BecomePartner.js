@@ -129,9 +129,9 @@ const BecomePartner = () => {
             We would love to see how we can service your business. Click below to find out more about becoming a valued
             customer partner with Texas Auto Parts.
           </p>
-          <button className="contact-button" style={{ width: "140px", height: "45px" }} onClick={toggleForm}>
+          <a className="contact-button" style={{ width: "140px", height: "45px" }} href="https://forms.gle/th22N9s5qc5oEHJL6" target="_blank" rel="noopener noreferrer">
             Learn More <img src={arrow} style={{ width: "15px", height: "15px" }} alt="arrow" />
-          </button>
+          </a>
         </div>
       </div>
 

@@ -157,10 +157,10 @@ const ContactUsForm = () => {
                                     <span className="highlight"> Texas Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                    12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
+                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>inquiries@txautoparts.net</u>
                                 </p>
                             </div>
                             <div className="presence-address2">
@@ -169,17 +169,17 @@ const ContactUsForm = () => {
                                     <span className="highlight"> Texas Auto Parts</span>
                                 </p>
                                 <p style={{ color: "grey", fontSize: "0.8rem" }}>
-                                    12505 Reed Rd Suit 145 Sugar Land TX 77478
+                                    12505 Reed Rd Suite 145 Sugar Land TX 77478
                                 </p>
                                 <p style={{ color: "black" }}>
-                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>kash@txautoparts.net</u>
+                                    <span style={{ fontWeight: "bold" }}>Email us:</span> <u>inquiries@txautoparts.net</u>
                                 </p>
                             </div>
                         </div>
 
                         {/* Social Media Icons */}
                         <div className="col-12 col-md-6">
-                            <div className="contactus-social" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
+                            {/* <div className="contactus-social" style={{ display: "flex", justifyContent: "end", alignItems: "center" }}>
                                 <div className="social-links">
                                     <div className="social-icons-footer" style={{ marginLeft: "0px", padding: "0px" }}>
                                         <a href="#" aria-label="Facebook">
@@ -196,7 +196,7 @@ const ContactUsForm = () => {
                                         </a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
