@@ -3,10 +3,6 @@ import emailjs from "emailjs-com";  // Import EmailJS
 import "../styles/contactus.css";
 import robot from "../assets/contactus.png";
 import addressIcon from "../assets/addressIcon.png";
-import facebookIcon from "../assets/icon1.png";
-import instagramIcon from "../assets/icon2.png";
-import linkedinIcon from "../assets/icon3.png";
-import twitterIcon from "../assets/icon4.png";
 
 const ContactUsForm = () => {
     // State for form fields

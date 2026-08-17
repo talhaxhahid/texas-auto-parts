@@ -14,10 +14,7 @@ import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
 import emailIcon from "./assets/emailIcon.png";
 import postboxIcon from "./assets/postboxIcon.png";
-import facebookIcon from "./assets/facebookIcon.png";
-import instagramIcon from "./assets/instagramIcon.png";
-import linkedinIcon from "./assets/linkedinIcon.png";
-import twitterIcon from "./assets/twitterIcon.png";
+
 import arrow from "./assets/arrow.png";
 import { useLocation, useNavigate } from "react-router-dom";
 
@@ -132,10 +129,10 @@ const WebsiteLayout = ({ children }) => {
               </a>
             </li>
           </ul>
-          <a className="hide-on-mobile" onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}>
+          <a href="#" className="hide-on-mobile" onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}>
             <RegisterButton text="Register Now" link="" />
           </a>
-          <a className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
+          <a href="#" className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
             <AnimatedButton text="Contact Us" link="" />
           </a>
         </div>
