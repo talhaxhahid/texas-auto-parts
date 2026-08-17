@@ -3,10 +3,6 @@ import "../../src/styles/featureproduct.css";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import featureproduct1 from "../assets/i1.png";
-import featureproduct2 from "../assets/i2.png";
-import featureproduct3 from "../assets/i3.png";
-import featureproduct4 from "../assets/i4.png";
 import densologo from "../assets/vendor-logos/Denso.jpg";
 import aisinlogo from "../assets/vendor-logos/AISIN.jpg";
 import moog from "../assets/vendor-logos/Moog.jpg";
@@ -19,10 +15,8 @@ import wagner from "../assets/vendor-logos/Wagner.jpg";
 import fcs from "../assets/vendor-logos/FCS.jpg";
 import fmp from "../assets/vendor-logos/FMP.jpg";
 import arrow from "../assets/arrow.png";
-import { useNavigate } from 'react-router-dom';
 
 const Vendors = () => {
-  const navigate = useNavigate();
   const sliderSettings = {
     infinite: true,
     slidesToShow: 10,

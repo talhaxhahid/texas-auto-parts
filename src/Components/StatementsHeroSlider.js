@@ -9,10 +9,9 @@ import s4 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_e12866d2.jpg";
 import s5 from "../assets/WhatsApp Image 2025-05-30 at 13.36.13_f447afef.jpg";
 import "../styles/heroslider.css";
 import arrow from "../assets/arrow.png";
-import { useNavigate } from 'react-router-dom';
+
 const StatementsHeroSlider = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide
-  const navigate = useNavigate();
   const settings = {
     dots: true,
     infinite: true,

@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/presence.css';
-import presence from '../assets/presence.png';
 import arrow from "../assets/arrow.png";
 import addressIcon from "../assets/addressIcon.png";
 import { useNavigate } from 'react-router-dom';

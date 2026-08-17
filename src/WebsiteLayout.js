@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import "./styles/layout.css";
 import "./styles/animatedbtn.css";
 import logo from "./assets/logo.png";
-import facebook from "./assets/facebook.png";
-import instagram from "./assets/instagram.png";
-import linkedin from "./assets/linkedin.png";
-import twitter from "./assets/twitter.png";
 import call from "./assets/call.png";
 import timeline from "./assets/timeline.png";
 import AnimatedButton from "./Components/AnimatedButton";
@@ -13,7 +9,6 @@ import RegisterButton from "./Components/RegisterButton";
 import phone from "./assets/phone.png";
 import addressIcon from "./assets/addressIcon.png";
 import emailIcon from "./assets/emailIcon.png";
-import postboxIcon from "./assets/postboxIcon.png";
 
 import arrow from "./assets/arrow.png";
 import { useLocation, useNavigate } from "react-router-dom";
@@ -129,10 +124,12 @@ const WebsiteLayout = ({ children }) => {
               </a>
             </li>
           </ul>
-          <a href="#" className="hide-on-mobile" onClick={() => handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0")}>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a href="#" className="hide-on-mobile" onClick={(e) => { e.preventDefault(); handleLinkClick("https://docs.google.com/forms/d/e/1FAIpQLSfB85x8eBZ4pE8ycaq47yXuWRDwdRwpLTxsM3wJ8_14CAjdbg/viewform?vc=0&c=0&w=1&flr=0"); }}>
             <RegisterButton text="Register Now" link="" />
           </a>
-          <a href="#" className="hide-on-mobile" onClick={() => handleLinkClick("/Contact")}>
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
+          <a href="#" className="hide-on-mobile" onClick={(e) => { e.preventDefault(); handleLinkClick("/Contact"); }}>
             <AnimatedButton text="Contact Us" link="" />
           </a>
         </div>

@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import arrow from '../assets/arrow.png';
-import { useNavigate } from 'react-router-dom';
 
 
 const HowItWorks = () => {
 
-    const navigate = useNavigate();
     return(<div style={{textAlign:'center',paddingTop:'0px', paddingBottom:'40px'}} id='howtoaccess'>
 
         <h1 style={{fontWeight:'bold' , fontSize:'2.5rem',color:'#D81324', display:'inline-block', marginBottom:'15px'}}>Access your Account</h1>
